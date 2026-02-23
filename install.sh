@@ -3,8 +3,6 @@
 # Copyright 2023-present Spicetify contributors.
 # Edited from project Denoland install script (https://github.com/denoland/deno_install)
 
-set -e
-
 for arg in "$@"; do
     shift
     case "$arg" in
